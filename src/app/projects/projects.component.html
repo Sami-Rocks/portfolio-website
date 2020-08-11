@@ -1,0 +1,20 @@
+<div class="container">
+
+    <div class="projects"  *ngFor="let project of projects;  let i = index" >
+        <div class="project"  >
+            <div class="image">
+                <img [src]="project.imageUrl" alt="" srcset="">
+            </div>
+            <div class="title">
+                <h1>{{project.title}}</h1>
+            </div>
+            <div class="description">
+                <p>{{project.description}}</p>
+            </div>
+            <div class="btn" >
+                <button>VIEW PROJECT</button>
+            </div>
+        </div>
+    </div>
+
+</div>

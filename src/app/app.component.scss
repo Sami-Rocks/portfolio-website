@@ -1,0 +1,61 @@
+.whole-content{
+    position: relative;
+    .header, .social-media, .scroll{
+        position: fixed;
+    }
+    .header{
+        padding: 10px 100px;
+        height: 80px;
+        width: 90%;
+        .logo{
+            line-height: 25px;
+            cursor: pointer;
+        }
+        .logo:hover{
+            color: white;
+        }
+        .nav{
+            margin-top: -50px;
+            float: right;
+            display: flex;
+            flex-direction: row;
+            .item{
+                margin-right:30px ;
+                cursor: pointer;
+            }
+            .item:hover{
+                color: white;
+            }
+        }
+    }
+    .scroll{
+        display: flex;
+        flex-direction: row;
+        bottom: 100px;
+        right: 20px;
+        transform: rotate(90deg);
+    }
+    .social-media{
+        bottom: 30px;
+        margin-left: 100px;
+        .media{
+            margin-bottom: 20px;
+            svg{
+                width: 20px;
+                height: auto;
+                color: #DDDDDD !important;
+                cursor: pointer;
+            }
+            :hover{
+                color: white;
+            }
+        }
+    }
+}
+
+.bottom-line{
+    width: 50px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-bottom: 1px solid #DDDDDD;
+}

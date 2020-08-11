@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portfolio-website';
+
+  toHome(){
+    document.getElementById("home").scrollIntoView({behavior:"smooth"})
+  }
+  toProjects(){
+    document.getElementById("projects").scrollIntoView({behavior:"smooth"})
+  }
+  toContact(){
+    document.getElementById("contact").scrollIntoView({behavior:"smooth"})
+  }
 }

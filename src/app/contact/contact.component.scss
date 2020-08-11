@@ -1,0 +1,100 @@
+.container{
+    height: 100vh;
+
+    margin: 0 auto;
+    width: 80%;
+    h1{
+        font-size: 3rem;
+    }
+
+    .info{
+        width: 50%;
+        text-align: center;
+        height: 75%;
+        padding: 0 20px;
+        p{
+
+            font-weight: 200;
+            font-size: 1rem;
+            line-height: 25px;
+            letter-spacing: 3px;
+        }
+        .details{
+            margin-top: 50px;
+        }
+        .detail{
+            margin-top: 40px;
+        }
+    }
+    .contact-box{
+        width: 50%;
+        height: 75%;
+        text-align: center;
+        background-color: #35373C;
+        -webkit-box-shadow: -15px 14px 23px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: -15px 14px 23px 0px rgba(0,0,0,0.75);
+        box-shadow: -15px 14px 23px 0px rgba(0,0,0,0.75);
+
+        
+        .inputBox{
+            position: relative;
+            margin: 10px auto;
+            width: 80%;
+        }
+
+        .inputBox input{
+            width: 100%;
+            padding: 8px 0;
+            font-size: 16px;
+            margin-bottom: 40px;
+            border: none;
+            color: #dddddd;
+            border-bottom: 1px solid #dddddd;
+            outline: none;
+            background: transparent;
+        }
+
+        .inputBox label{
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 10px 0;
+            font-size: 16px;
+            color: #dddddd;
+            pointer-events: none;
+            transition: .5s;
+        }
+
+        .inputBox input:focus ~ label,
+        .inputBox input:valid ~ label{
+            top: -18px;
+            left: 0;
+            color:#ffffff;
+            font-size: 12px;
+        }
+
+        button{
+            width: 300px;
+                padding: 16px 15px;
+                border: none;
+                background-color: #35373C;
+                -webkit-box-shadow: 14px 11px 22px 0px rgba(0,0,0,0.75);
+                -moz-box-shadow: 14px 11px 22px 0px rgba(0,0,0,0.75);
+                box-shadow: 14px 11px 22px 0px rgba(0,0,0,0.75);
+                color: #dddddd;
+                cursor: pointer;
+                font-size: 1rem;
+
+                margin-top: 50px;
+        }
+        button:focus{
+            outline: none;
+        }
+        button:active{
+            -webkit-box-shadow: 7px 5px 11px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 74px 5px 11px 0px rgba(0,0,0,0.75);
+            box-shadow: 7px 5px 11px 0px rgba(0,0,0,0.75);
+        }
+
+    }
+}

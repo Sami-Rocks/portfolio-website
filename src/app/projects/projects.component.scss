@@ -1,0 +1,97 @@
+.container{
+    height: 100vh;
+    margin: 0 auto;
+    width: 85%;
+
+    .projects{
+        width: 100%;
+        position: relative;
+        .project{
+            position: absolute;
+            height: 700px;
+            top: -370px;
+            width: 350px;
+            overflow: hidden;
+            text-align: center;
+            transition: .3s all ease;
+            margin: 0 25px;
+
+            -webkit-box-shadow: -15px 14px 23px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: -15px 14px 23px 0px rgba(0,0,0,0.75);
+            box-shadow: -15px 14px 23px 0px rgba(0,0,0,0.75);
+    
+            .image{
+                text-align: center;
+            } img{
+                transition: .3s all ease;
+                width: 100%;
+                height: 400px;
+                margin: 0 auto;
+                object-fit: cover;
+                -webkit-filter: grayscale(100%); 
+                filter: grayscale(100%);
+              
+            }
+            .title{
+                font-size: 25px;
+                transition: .3s all ease;
+            }
+            .description{
+                transition: .3s all ease;
+                font-weight: 200;
+                opacity: 0;
+                font-size: 8px;
+                padding: 0 10px;
+                letter-spacing: 2px;
+            }
+            .btn{
+                transition: .1s all ease;
+                button{
+                   
+                    padding: 16px 15px;
+                    border: none;
+                    background-color: #35373C;
+                    -webkit-box-shadow: 14px 11px 22px 0px rgba(0,0,0,0.75);
+                    -moz-box-shadow: 14px 11px 22px 0px rgba(0,0,0,0.75);
+                    box-shadow: 14px 11px 22px 0px rgba(0,0,0,0.75);
+                    color: #dddddd;
+                    cursor: pointer;
+                    font-size: 1rem;
+                    margin-top: 10px;
+                }
+                button:focus{
+                    outline: none;
+                }
+                button:active{
+                    -webkit-box-shadow: 7px 5px 11px 0px rgba(0,0,0,0.75);
+                    -moz-box-shadow: 74px 5px 11px 0px rgba(0,0,0,0.75);
+                    box-shadow: 7px 5px 11px 0px rgba(0,0,0,0.75);
+                }
+            }
+        }
+        .project:hover{
+            margin: 0 0;
+            top: -380px;
+            height: 750px;
+            width: 400px;
+            z-index: 1;
+
+            -webkit-box-shadow: -11px 13px 18px 10px rgba(0,0,0,0.75);
+            -moz-box-shadow: -11px 13px 18px 10px rgba(0,0,0,0.75);
+            box-shadow: -11px 13px 18px 10px rgba(0,0,0,0.75);
+            .title{
+                font-size: 20px;
+            }
+            .image img{
+                height: 500px;
+            }
+            .description{
+               opacity: 1;
+                font-size: 10px;
+            }
+            
+        }
+
+    }
+}
+

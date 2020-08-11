@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+$text-color: #DDDDDD;
+a{
+    text-decoration: none;
+    text-emphasis: none;
+    color: $text-color;
+    transition: ease .5s;
+}
+        a:hover{
+            color: white;
+        }
+
+body{
+    color: $text-color;
+    background: rgb(60,62,66);
+    background: url('./assets/media/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+}
+button{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+}
+
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
