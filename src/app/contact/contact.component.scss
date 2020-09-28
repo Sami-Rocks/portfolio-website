@@ -1,14 +1,15 @@
-.container{
+.container-fluid{
     height: 100vh;
 
     margin: 0 auto;
     width: 80%;
+    justify-content: space-between;
     h1{
         font-size: 3rem;
     }
 
     .info{
-        width: 50%;
+        width: 45%;
         text-align: center;
         height: 75%;
         padding: 0 20px;
@@ -27,14 +28,18 @@
         }
     }
     .contact-box{
-        width: 50%;
+        padding: 30px 10px;
+        width: 45%;
         height: 75%;
         text-align: center;
         background-color: #35373C;
         -webkit-box-shadow: -15px 14px 23px 0px rgba(0,0,0,0.75);
         -moz-box-shadow: -15px 14px 23px 0px rgba(0,0,0,0.75);
         box-shadow: -15px 14px 23px 0px rgba(0,0,0,0.75);
-
+        h1{
+            margin-top: 20px;
+            margin-BOTTOM: 20px;
+        }
         
         .inputBox{
             position: relative;
@@ -70,7 +75,7 @@
             top: -18px;
             left: 0;
             color:#ffffff;
-            font-size: 12px;
+            font-size: 11px;
         }
 
         button{

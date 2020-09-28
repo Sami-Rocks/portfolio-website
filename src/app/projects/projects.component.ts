@@ -29,14 +29,7 @@ export class ProjectsComponent implements OnInit {
       link: 'google.com',
       active: false
     }
-    ,
-    {
-      imageUrl: 'https://image.freepik.com/free-photo/image-human-brain_99433-298.jpg',
-      title: 'Big Title 2',
-      description: 'Loti tempora non sapiente, voluptatibus vero exercitationem commodi.',
-      link: 'google.com',
-      active: false
-    }
+
   ]
   constructor() { 
   

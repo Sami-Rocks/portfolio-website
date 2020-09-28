@@ -7,6 +7,8 @@ import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 
+import { NgwWowModule } from 'ngx-wow';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,8 +17,10 @@ import { ContactComponent } from './contact/contact.component';
     ContactComponent
   ],
   imports: [
+    NgwWowModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

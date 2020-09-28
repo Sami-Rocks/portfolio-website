@@ -5,6 +5,7 @@ a{
     text-emphasis: none;
     color: $text-color;
     transition: ease .5s;
+    font-weight: 200 !important;
 }
         a:hover{
             color: white;
@@ -25,8 +26,14 @@ button{
     letter-spacing: 5px;
 }
 
+h1{
+    font-weight: 900;
+}
+p{
+    font-weight: 200 !important;
+}
 
-.container{
+.container-fluid{
     height: 100vh;
     width: 100%;
     display: flex;
